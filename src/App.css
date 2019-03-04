@@ -576,14 +576,17 @@ html {
 
   .publicationName {
     font-size: 1rem;
+    text-align: left;
   }
 
   .publicationAuthors {
     font-size: 0.8rem;
+    text-align: left;
   }
 
   .publicationJournal {
-    font-size: 0.8rem
+    font-size: 0.8rem;
+    text-align: left;
   }
 
   .publicationImage {
