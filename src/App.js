@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal/Fade';
+import Flip from 'react-reveal/Flip';
 import './App.css';
 
 
@@ -8,8 +9,9 @@ import './App.css';
 
 const Project = ({ title, description, image, link, opacity }) => (
 
-  <Fade left duration={1500}>
-    <a className='projectLink' href={link}>
+  <a className='projectLink' href={link}>
+
+    <Flip left duration={1500}>
       <div className="project-summary" style={{ opacity: opacity }}>
 
         <div className='projectDivImage'>
@@ -22,8 +24,9 @@ const Project = ({ title, description, image, link, opacity }) => (
           </div>
         </div>
       </div>
-    </a>
-  </Fade>
+    </Flip>
+  </a>
+
 )
 
 const Algorithm = ({ title, description, image, link }) => (
@@ -185,11 +188,14 @@ const Header = (name) => (
 
   <div className='header'>
     <div>
-      <Fade left>
+      <Flip left>
         <div className='headerImage'>
           <img className='center imgCircle' src='./images/myAvatar'></img>
 
         </div>
+      </Flip>
+
+      <Fade>
         <h1 className='textCenter titleText'>Liam D. Eloie</h1>
         <p className='textCenter'>liam.d.eloie@gmail.com</p>
 
@@ -215,7 +221,7 @@ const About = () => (
     <h1 className='aboutMeTitle'>
       About Me
     </h1>
-    <Fade left duration={1500}>
+    <Fade duration={1500}>
       <hr className='hrStyleBlue'></hr>
       <p className='aboutMeDescription'>
         I am a recent master's graduate in both Physics and Machine Learning at University College London (UCL).
@@ -282,11 +288,9 @@ const Projects = () => (
     <hr className='hrStyleBlue'></hr>
 
     <div className='projectTabs'>
-      <Fade left duration={1500}>
-        <div className='projectRow'>
-          {projects1.map(project => <Project {...project} />)}
-        </div>
-      </Fade>
+      <div className='projectRow'>
+        {projects1.map(project => <Project {...project} />)}
+      </div>
 
     </div>
   </div>
@@ -354,16 +358,11 @@ const Algorithms = () => {
 
 const Tabs = () => (
   <div className='tabs'>
-    <Fade left>
+    <Fade duration={1500}>
       <a href="#aboutMe" className='tab'>About</a>
-    </Fade>
-    <Fade left>
       <a href='#projects' className='tab'>Projects</a>
-    </Fade>
-    <Fade left>
       <a href='#algorithms' className='tab'>Algorithms</a>
-    </Fade>
-    <Fade left>
+
       <a href='#publications' className='tab'>Publications</a>
     </Fade>
   </div >
