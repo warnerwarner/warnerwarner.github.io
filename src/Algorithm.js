@@ -84,15 +84,21 @@ const Algorithms = ({ supervised, unsupervised, reinforcement }) => {
 
         <div className='algorithmBody'>
             <div className='algorithmTabs'>
-                <div className='algorithmSubtitle supervised' onClick={(e) => setAlgorithm(e, setAlgorithmIndex, 0)}>
-                    <h1 className='algorithmText'>Supervised Learning</h1>
-                </div>
-                <div className='algorithmSubtitle unsupervised' onClick={(e) => setAlgorithm(e, setAlgorithmIndex, 1)} >
-                    <h1 className='algorithmText'>Unsupervised Learning</h1>
-                </div>
-                <div className='algorithmSubtitle reinforcement' onClick={(e) => setAlgorithm(e, setAlgorithmIndex, 2)} >
-                    <h1 className='algorithmText'>Reinforcement Learning</h1>
-                </div>
+                <a className='algorithmSubtitleLink' href='#algorithms'>
+                    <div className='algorithmSubtitle supervised' onClick={(e) => setAlgorithm(e, setAlgorithmIndex, 0)}>
+                        <h1 className='algorithmText'>Supervised Learning</h1>
+                    </div>
+                </a>
+                <a className='algorithmSubtitleLink' href='#algorithms'>
+                    <div className='algorithmSubtitle unsupervised' onClick={(e) => setAlgorithm(e, setAlgorithmIndex, 1)} >
+                        <h1 className='algorithmText'>Unsupervised Learning</h1>
+                    </div>
+                </a>
+                <a className='algorithmSubtitleLink' href='#algorithms'>
+                    <div className='algorithmSubtitle reinforcement' onClick={(e) => setAlgorithm(e, setAlgorithmIndex, 2)} >
+                        <h1 className='algorithmText'>Reinforcement Learning</h1>
+                    </div>
+                </a>
             </div>
             <div className='projectTabs'>
                 <div className='projectRow'>

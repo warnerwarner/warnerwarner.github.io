@@ -281,11 +281,17 @@ html {
   color: #104870;
   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   opacity: 0.5;
-  width:33%
+  width:100%
+}
+
+.algorithmSubtitleLink {
+  text-decoration: none;
+  width: 33%;
+  display: flex;
+  justify-content: center;
 }
 
 .algorithmSubtitle:hover{
-  
   opacity: 1
 }
 
