@@ -1,3 +1,7 @@
+p {
+  line-height: 1.5;
+ }
+ 
 
 html {
   scroll-behavior: smooth
@@ -7,7 +11,7 @@ html {
   margin: auto;
   background-color:#0277BC;
   color: white;
-  padding: 2rem
+  padding: 2rem;
 }
 
 .body {
@@ -53,19 +57,17 @@ html {
   display: flex;
   margin: auto;
   width: 100%;
-  height: 8rem;
+  height: 4rem;
   background-color:#104870;
 }
 
 .tab {
   position: relative;
   width: 33%;
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: white;
   margin: auto;
   text-align: center;
-  padding-top: 1%;
-  padding-bottom: 1%;
   text-decoration: none;
 }
 
@@ -149,15 +151,15 @@ html {
   flex-direction: column;
   justify-content: center;
   scroll-behavior: smooth;
+  padding-bottom: 3rem;
 }
 
 .aboutMeTitle {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
 }
 
 .aboutMeDescription {
-
   font-size: 1.5rem;
   text-align: justify;
   padding-left: 10%;
@@ -176,13 +178,13 @@ html {
 
 .projectsTitle {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #104870;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 .projectTitle {
-  height: 15%;
+  margin: 0;
   font-size: 1.2rem;
   color: #104870;
 
@@ -194,14 +196,14 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom:5rem;
+  padding-bottom:3rem;
 }
 
 .algorithmsTitle {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #104870;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 .projectDescription {
@@ -242,6 +244,7 @@ html {
 }
 
 .project-summary {
+  padding:16px;
   min-width: 260px;
   min-height: 300px;
   width: 15.2vw;
@@ -281,7 +284,7 @@ html {
   color: #104870;
   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   opacity: 0.5;
-  width:100%
+  width:100%;
 }
 
 .algorithmSubtitleLink {
@@ -296,7 +299,8 @@ html {
 }
 
 .algorithmText {
-  text-align: center
+  text-align: center;
+  font-size: 1.5rem
 }
 
 .algorithmBody {
@@ -394,6 +398,7 @@ html {
   justify-content: center;
   align-items: center;
   scroll-behavior: smooth;
+  padding-top:3rem;
 } 
 
 .publication {
@@ -443,7 +448,7 @@ html {
   width: 75%
 }
 
-@media (min-width: 1150px) {
+@media (min-width: 1200px) {
   .projects {
     width: 80%;
     display: flex;
@@ -495,26 +500,6 @@ html {
 
   .algorithms {
     width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto
-  }
-}
-
-@media (min-width: 1600px) {
-  .projects {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto
-  }
-
-  .algorithms {
-    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -525,7 +510,7 @@ html {
 
 @media (min-width: 1800px) {
   .projects {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -534,7 +519,7 @@ html {
   }
 
   .algorithms {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -556,7 +541,7 @@ html {
   }
 
   .aboutMeTitle {
-    font-size: 2rem
+    font-size: 2rem;
   }
 
   .algorithmsTitle {
