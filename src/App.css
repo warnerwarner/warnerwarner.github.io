@@ -1,32 +1,538 @@
-.App {
+
+html {
+  scroll-behavior: smooth
+}
+
+.header {
+  margin: auto;
+  background-color:#0277BC;
+  color: white;
+  padding: 2rem
+}
+
+.body {
+  width: 100%;
+  margin:auto;
+  background-color: #E2F5FF;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:35%
+}
+
+.titleText {
+  font-size: 3rem;
+  color:white
+}
+
+.personDescription {
+  padding: 1.5rem;
+  font-size: 20px;
+}
+
+.textCenter {
+  text-align: center
+}
+
+.imgCircle {
+  border-radius: 50%;
+  margin: 5px;
+
+  width: 250px;
+  height: 250px;
+}
+
+
+
+.tabs {
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height: 8rem;
+  background-color:#104870;
+}
+
+.tab {
+  position: relative;
+  width: 33%;
+  font-size: 2rem;
+  color: white;
+  margin: auto;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-decoration: none;
+}
+
+.tab:hover {
+  color: #2196F3;
+}
+
+.projectTabs {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.projectRow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+
+}
+
+.contacts {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+  
+}
+.contactText {
+  font-size: 1.5rem;
+}
+
+.contactLogo {
+  width: 100%;
+}
+
+.contactItem {
+  width:2rem;
+  height:2rem;
+  margin:5px;
+}
+
+.headerImage {
+  position: relative;
+  display: flex;
+  
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  padding:10px;
+}
+
+.hrStyleWhite {
+  width:25%;
+  height: 2px;
+  border: 0;
+  padding: 0;
+  background: white;
+  
+}
+
+.hrStyleBlue{
+  width:25%;
+  height: 2px;
+  border: 0;
+  padding: 0;
+  background: #104870;
+  
+}
+
+
+.aboutMe {
+  background-color: white;
+  color: #104870;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  scroll-behavior: smooth;
+}
+
+.aboutMeTitle {
+  font-size: 3rem;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.aboutMeDescription {
+
+  font-size: 1.5rem;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.projects {
+  background-color: #E2F5FF;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.projectsTitle {
+  text-align: center;
+  font-size: 3rem;
+  color: #104870;
+  padding-top: 2rem;
+}
+
+.projectTitle {
+  height: 15%;
+  font-size: 1.2rem;
+  color: #104870;
+
+}
+
+.algorithms {
+  background-color: #E2F5FF;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-bottom:5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.algorithmsTitle {
+  text-align: center;
+  font-size: 3rem;
+  color: #104870;
+  padding-top: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.projectDescription {
+  text-align: left;
+  font-weight: bold;
+  font-size: 0.75rem;
+  color: #555555;
+  opacity: 0.6
+}
+
+.projectDiv {
+  width: 100%;
+  height: 40%;
+  display: flex;
+}
+
+.projectImage {
+  width: 60%;
+}
+
+.projectDivImage {
+  background-color: #4392F1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100%;
+  height: 60%;
+}
+
+.projectText {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2em;
+  font-size: 0.1rem;
+  height: 40%
+}
+
+.project-summary {
+  min-width: 260px;
+  min-height: 300px;
+  width: 15.2vw;
+  height:19vw;
+  
+  color:#2196F3;
+  background-color: white;
+  margin: 1rem;
+  
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+
+  border-bottom: 0 none;
+	-webkit-box-shadow: 0 3px 2px #777;
+	-moz-box-shadow: 0 3px 2px #777;
+  box-shadow: 0 3px 2px #777;
+  
+  border-radius: 1%;
+}
+
+.project-summary:hover {
+  background: #D4DADF;
+  opacity: 0.8
+}
+.projectLink {
+  text-decoration: none
+}
+
+.algorithmTabs {
+  display: flex;
+  justify-content: flex-start;
+  width:100%
+}
+
+.algorithmSubtitle {
+  color: #104870;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  opacity: 0.5;
+  width:33%
+}
+
+.algorithmSubtitle:hover{
+  
+  opacity: 1
+}
+
+.algorithmText {
+  text-align: center
+}
+
+.algorithmBody {
+  width: 100%
+}
+
+.algorithm-summary {
+  display:flex;
+
+  
+  height: 10rem;
+  width: 100%;
+  margin-top: 2%;
+
+  border-bottom: 0 none;
+	-webkit-box-shadow: 0 3px 2px #777;
+	-moz-box-shadow: 0 3px 2px #777;
+  box-shadow: 0 3px 2px #777;
+}
+
+.algorithmLink {
+  display: flex;
+  text-decoration: none;
+  width:100%;
+  margin: auto;
+  justify-content: center;
+
+}
+
+.algorithmLink:hover {
+  background-color: #EEEEEE
+}
+
+.algorithmImage {
+  width: 10rem;
+  padding-right:10rem;
+
+}
+
+.algorithmDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.algorithImageDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #4392F1;
+  width: 33.3%;
+}
+
+.algorithmTextDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  background-color: white;
+  width: 66.6%
+}
+
+.algorithmDivDiv {
+  text-align:center;
+  display: flex;
+  width: 100%
+}
+
+.algorithmTitle {
+  text-align: left;
+  font-weight: bold;
+}
+
+.algorithmDescription {
+  text-align: left;
+  font-weight: bold
+}
+
+.algorithmSelect {
+  background-color: #E2F5FF
+}
+
+.active {
+  background-color: #E2F5FF;
+  opacity: 1
+}
+.publications {
+  background-color: white;
+  color: #104870;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  scroll-behavior: smooth;
+} 
+
+.publication {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.publicationName {
+  font-size: 1.5rem;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%
+}
+
+.publicationAuthors {
+  font-size: 1rem;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #AAAAAA
+}
+
+.publicationJournal {
+  font-size: 1rem;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #AAAAAA
+}
+
+.publicationImageDiv {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items:center
+}
+
+.publicationImage {
+  width: 12rem;
+}
+
+.publicationText {
+  width: 75%
+}
+
+@media (min-width: 1150px) {
+  .projects {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto
   }
-  to {
-    transform: rotate(360deg);
+
+  .algorithms {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto
+  }
+}
+
+@media (min-width: 1400px) {
+  .projects {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto
+  }
+
+  .algorithms {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto
+  }
+}
+
+@media (min-width: 1400px) {
+  .projects {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto
+  }
+
+  .algorithms {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto
+  }
+}
+
+@media (min-width: 1600px) {
+  .projects {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto
+  }
+
+  .algorithms {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto
+  }
+}
+
+@media (min-width: 1800px) {
+  .projects {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto
+  }
+
+  .algorithms {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto
   }
 }
