@@ -129,10 +129,10 @@ const reinforcement = [{
 const publications = [{
     name: 'Quantum arithmetics via computation with minimized external control: The half-adder.',
     authors: 'Liam Eloie, Leonardo Banchi, and Sougato Bose',
-    journal: 'Physical Review A'
+    journal: 'Physical Review A',
+    image: './images/bloch_sphere.png'
 },
 ]
-
 
 export {
     projects,
