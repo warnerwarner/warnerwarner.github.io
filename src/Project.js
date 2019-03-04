@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Flip from 'react-reveal/Flip';
-import './App.css';
 
 const Project = ({ title, description, image, link, opacity }) => (
     /**

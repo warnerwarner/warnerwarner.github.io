@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react';
 import Fade from 'react-reveal/Fade';
 
 const Publication = ({ name, authors, journal, image }) => (

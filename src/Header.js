@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
-import './App.css';
 
 const Header = (name) => (
     /**

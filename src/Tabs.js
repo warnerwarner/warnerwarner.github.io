@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Fade from 'react-reveal/Fade';
-import './App.css';
 
 const Tabs = () => (
     <div className='tabs'>
