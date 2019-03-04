@@ -11,7 +11,7 @@ const Header = (name) => (
 
     <div className='header'>
         <div>
-            <Flip left delay={1000}>
+            <Flip left delay={800}>
                 <div className='headerImage'>
                     <img className='center imgCircle' src='./images/myAvatar'></img>
                 </div>
