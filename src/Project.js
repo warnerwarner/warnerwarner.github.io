@@ -1,7 +1,7 @@
 import React from 'react';
 import Flip from 'react-reveal/Flip';
 
-const Project = ({ title, description, image, link, opacity }) => (
+const Project = ({ title, description, image, link }) => (
     /**
      * A React component that represents a card detailing an 
      * implemented project. 
@@ -15,8 +15,8 @@ const Project = ({ title, description, image, link, opacity }) => (
 
     <a target="_blank" className='projectLink' href={link}>
         <Flip left duration={1500}>
-            <div style={{ opacity: opacity }}>
-                <div className="project-summary" style={{ opacity: opacity }}>
+            <div>
+                <div className="project-summary">
                     <div className='projectDivImage'>
                         <img className="projectImage" src={image}></img>
                     </div>
@@ -29,7 +29,7 @@ const Project = ({ title, description, image, link, opacity }) => (
                 </div>
             </div>
         </Flip>
-    </a>
+    </a >
 )
 
 const Projects = ({ projects }) => (
@@ -44,9 +44,8 @@ const Projects = ({ projects }) => (
         <h1 className='projectsTitle'>Projects</h1>
         <hr className='hrStyleBlue'></hr>
         <div className='projectTabs'>
-            <div className='projectRow'>
-                {projects.map(project => <Project {...project} />)}
-            </div>
+            {projects.map(project => <Project {...project} />)}
+
         </div>
     </div>
 )

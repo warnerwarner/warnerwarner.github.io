@@ -29,6 +29,12 @@ const projects = [{
     description: 'Implementation of TicTacToe + AI opponent',
     image: './images/ttt.png',
     link: 'https://github.com/Usefulmaths/TicTacToe'
+},
+{
+    title: 'Website Portfolio',
+    description: 'A website portfolio of myself implemented using React.js.',
+    image: './images/website_portfolio_pic.png',
+    link: 'https://github.com/Usefulmaths/Portfolio-Website'
 },];
 
 const supervised = [{
@@ -59,13 +65,7 @@ const supervised = [{
     image: './images/knn.png',
     link: 'https://github.com/Usefulmaths/K-Nearest-Neighbours',
 
-}, {
-    title: 'Actor-Critic',
-    description: 'Implementation of TicTacToe + AI opponent',
-    image: './images/actorcritic.png',
-    link: '',
-    opacity: 0
-},]
+}]
 
 const unsupervised = [{
     title: 'K-Means',
@@ -117,13 +117,6 @@ const reinforcement = [{
     description: 'Implementation of TicTacToe + AI opponent',
     image: './images/actorcritic.png',
     link: 'https://github.com/Usefulmaths/Actor-Critic'
-},
-{
-    title: 'Actor-Critic',
-    description: 'Implementation of TicTacToe + AI opponent',
-    image: './images/actorcritic.png',
-    link: 'https://github.com/Usefulmaths/Actor-Critic',
-    opacity: 0
 },]
 
 const publications = [{

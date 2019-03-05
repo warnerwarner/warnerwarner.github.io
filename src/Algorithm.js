@@ -28,7 +28,7 @@ function setAlgorithm(e, setAlgorithmIndex, index) {
     setAlgorithmIndex(index)
 }
 
-const Algorithm = ({ title, description, image, link, opacity }) => (
+const Algorithm = ({ title, description, image, link }) => (
     /**
      * A React component that represents a card detailing an 
      * implemented algorithm. 
@@ -42,9 +42,8 @@ const Algorithm = ({ title, description, image, link, opacity }) => (
 
     <a target="_blank" className='projectLink' href={link}>
         <Flip left duration={1500}>
-            <div style={{ opacity: opacity }}>
-                <div className="project-summary" style={{ opacity: opacity }}>
-
+            <div>
+                <div className="project-summary">
                     <div className='projectDivImage'>
                         <img className="projectImage" src={image}></img>
                     </div>
@@ -100,9 +99,7 @@ const Algorithms = ({ supervised, unsupervised, reinforcement }) => {
                 </a>
             </div>
             <div className='projectTabs'>
-                <div className='projectRow'>
-                    {getAlgorithmSet(algorithmIndex, supervised, unsupervised, reinforcement).map(project => <Algorithm {...project} />)}
-                </div>
+                {getAlgorithmSet(algorithmIndex, supervised, unsupervised, reinforcement).map(project => <Algorithm {...project} />)}
             </div>
         </div>
     </div >
