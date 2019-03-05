@@ -29,7 +29,7 @@ const Header = (name) => (
             <Fade delay={800}>
                 <hr className='hrStyleWhite'></hr>
                 <div>
-                    <p class='personDescription textCenter'>Machine Learning Engineer, London, UK</p>
+                    <p class='personDescription textCenter'>MSc Machine Learning Graduate, London, UK</p>
                 </div>
             </Fade>
         </div>
