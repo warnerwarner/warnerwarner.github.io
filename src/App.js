@@ -8,6 +8,7 @@ import Publications from './Publication';
 import Tabs from './Tabs';
 import { projects, supervised, unsupervised, reinforcement, publications } from './data'
 
+
 class App extends Component {
   render() {
     return (

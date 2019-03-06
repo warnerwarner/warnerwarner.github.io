@@ -1,6 +1,7 @@
 import React from 'react';
 import Flip from 'react-reveal/Flip';
 
+
 const Project = ({ title, description, image, link }) => (
     /**
      * A React component that represents a card detailing an 

@@ -63,8 +63,13 @@ const supervised = [{
     title: 'K-Nearest Neighbours',
     description: 'Implentation of K-Nearest Neighbours (Python)',
     image: './images/knn.png',
-    link: 'https://github.com/Usefulmaths/K-Nearest-Neighbours',
+    link: 'https://github.com/Usefulmaths/K-Nearest-Neighbours'
 
+}, {
+    title: 'Neural Network',
+    description: 'Implementation of a feedforward fully-connected neural network using NumPy (Python).',
+    image: './images/nn.png',
+    link: 'https://github.com/Usefulmaths/Neural-Network'
 }]
 
 const unsupervised = [{

@@ -2,6 +2,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
 
+
 const Header = (name) => (
     /**
      * A React component that represents the header of the website
