@@ -67,7 +67,7 @@ const supervised = [{
 
 }, {
     title: 'Neural Network',
-    description: 'Implementation of a feedforward fully-connected neural network using NumPy (Python).',
+    description: 'Implementation of a fully-connected feedforward neural network using NumPy (Python).',
     image: './images/nn.png',
     link: 'https://github.com/Usefulmaths/Neural-Network'
 }]
