@@ -1,7 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
-const Publication = ({ name, authors, journal, image }) => (
+const Publication = ({ name, authors, journal, image, link }) => (
     /**
      * A React component representing a publication.
      * 
@@ -17,7 +17,7 @@ const Publication = ({ name, authors, journal, image }) => (
         </div>
         <div className='publicationText'>
             <p className='publicationName'>
-                {name}
+                {name} <a target="_blank" href={link}>(Link)</a>
             </p>
             <p className='publicationAuthors'>
                 {authors}

@@ -6,7 +6,8 @@ import Header from './Header.js';
 import About from './About.js';
 import Publications from './Publication';
 import Tabs from './Tabs';
-import { projects, supervised, unsupervised, reinforcement, publications } from './data'
+import Attributes from './Attributes';
+import { projects, supervised, unsupervised, reinforcement, publications, attributes } from './data'
 
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
           <Projects projects={projects} />
           <Algorithms supervised={supervised} unsupervised={unsupervised} reinforcement={reinforcement} />
           <Publications publications={publications} />
+          <Attributes attributes={attributes} />
         </main>
       </div>
     );

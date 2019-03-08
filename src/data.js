@@ -128,14 +128,64 @@ const publications = [{
     name: 'Quantum arithmetics via computation with minimized external control: The half-adder.',
     authors: 'Liam Eloie, Leonardo Banchi, and Sougato Bose',
     journal: 'Physical Review A',
-    image: './images/bloch_sphere.png'
+    image: './images/bloch_sphere.png',
+    link: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.97.062321'
 },
 ]
+
+const attributes = [{
+    title: 'Linear Regression',
+    index: 1,
+    website: 'https://www.analyticsindiamag.com'
+}, {
+    title: 'Logistic Regression, Autoencoder',
+    index: 2,
+    website: 'https://www.towardsdatascience.com'
+}, {
+    title: 'K-Means',
+    index: 3,
+    website: 'https://machinelearningcoban.com/2017/01/01/kmeans/'
+}, {
+    title: 'PCA',
+    index: 4,
+    website: 'http://www.visiondummy.com/2014/05/feature-extraction-using-pca/'
+},
+{
+    title: 'Variational Autoencoder',
+    index: 5,
+    website: 'https://www.renom.jp'
+},
+{
+    title: 'Generative Adversarial Network',
+    index: 6,
+    website: 'https://skymind.ai/wiki/generative-adversarial-network-gan'
+},
+{
+    title: 'Q-Learning',
+    index: 7,
+    website: 'http://torch.ch/blog/2016/04/30/dueling_dqn.html'
+},
+{
+    tite: 'Actor-Critic',
+    index: 8,
+    website: 'https://medium.freecodecamp.org/'
+},
+{
+    title: 'Neural Translator Attention',
+    index: 9,
+    website: 'https://guillaumegenthial.github.io/sequence-to-sequence.html'
+},
+{
+    title: 'Solar System',
+    index: 10,
+    website: 'https://pngtree.com/so/solar-system'
+}]
 
 export {
     projects,
     supervised,
     unsupervised,
     reinforcement,
-    publications
+    publications,
+    attributes
 }
