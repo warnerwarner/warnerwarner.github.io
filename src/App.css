@@ -463,7 +463,8 @@ html {
   background-color: #2196F3;
   color: white;
   border-radius: 5%;
-  opacity:0.4
+  opacity:0.4;
+  margin-right:3rem;
 }
 
 .attributesButton:hover {
