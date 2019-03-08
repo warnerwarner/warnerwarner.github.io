@@ -14,7 +14,7 @@ const Header = (name) => (
         <div>
             <Flip left delay={800}>
                 <div className='headerImage'>
-                    <img className='center imgCircle' src='./images/myAvatar'></img>
+                    <img className='center imgCircle' src='https://media.licdn.com/dms/image/C5603AQFLA8MB1AkP_w/profile-displayphoto-shrink_200_200/0?e=1557360000&v=beta&t=AAVkoFazPHQj1eb6JmK8M_QhElaHMIbjX3oUhaoSG9o'></img>
                 </div>
             </Flip>
 
