@@ -20,6 +20,11 @@ const projects = [{
     image: './images/gpfunc.png',
     link: 'https://github.com/Usefulmaths/Neural-Processes'
 }, {
+    title: 'Neural Style Transfer',
+    description: 'An implementation of neural style transfer.',
+    image: './images/starry_london.png',
+    link: 'https://github.com/Usefulmaths/Style-Transfer'
+}, {
     title: 'Solar System',
     description: 'A simulation of the solar system using Newtonian physics.',
     image: './images/solarsystem.jpg',
