@@ -34,7 +34,7 @@ const projects = [
   {
     title: 'Transformer',
     description:
-      'A Transformer coded using PyTorch + demonstrated on English to Norwegian translation task.',
+      'A Transformer coded using PyTorch and demonstrated on English to Norwegian translation task.',
     image: './images/transformer_diagram2.png',
     link:
       'https://github.com/Usefulmaths/Transformer/blob/master/src/Transformer.ipynb',
