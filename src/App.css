@@ -1,24 +1,25 @@
 p {
   line-height: 1.5;
- }
- 
+}
 
 html {
   scroll-behavior: smooth;
+  background-color: #e2f5ff;
 }
 
 .header {
   margin: auto;
-  background-color:#0277BC;
+  background-color: #4392f1;
   color: white;
   padding: 2rem;
 }
 
 .body {
   width: 100%;
-  margin:auto;
-  background-color: #E2F5FF;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: auto;
+  background-color: #e2f5ff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   overflow: hidden;
 }
 
@@ -26,12 +27,12 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:35%
+  width: 35%;
 }
 
 .titleText {
   font-size: 3rem;
-  color:white
+  color: white;
 }
 
 .personDescription {
@@ -40,18 +41,15 @@ html {
 }
 
 .textCenter {
-  text-align: center
+  text-align: center;
 }
 
 .imgCircle {
   border-radius: 50%;
   margin: 5px;
-  width:250px;
+  width: 250px;
   height: 250px;
-
 }
-
-
 
 .tabs {
   position: relative;
@@ -59,7 +57,7 @@ html {
   margin: auto;
   width: 100%;
   height: 4rem;
-  background-color:#104870;
+  background-color: #104870;
 }
 
 .tab {
@@ -73,7 +71,7 @@ html {
 }
 
 .tab:hover {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .projectTabs {
@@ -85,8 +83,7 @@ html {
   position: relative;
   display: flex;
   flex-direction: row;
-  justify-content: center
-  
+  justify-content: center;
 }
 .contactText {
   font-size: 1.5rem;
@@ -97,39 +94,36 @@ html {
 }
 
 .contactItem {
-  width:2rem;
-  height:2rem;
-  margin:5px;
+  width: 2rem;
+  height: 2rem;
+  margin: 5px;
 }
 
 .headerImage {
   position: relative;
   display: flex;
-  
+
   margin: auto;
   align-items: center;
   justify-content: center;
-  padding:10px;
+  padding: 10px;
 }
 
 .hrStyleWhite {
-  width:25%;
+  width: 25%;
   height: 2px;
   border: 0;
   padding: 0;
   background: white;
-  
 }
 
-.hrStyleBlue{
-  width:25%;
+.hrStyleBlue {
+  width: 25%;
   height: 2px;
   border: 0;
   padding: 0;
   background: #104870;
-  
 }
-
 
 .aboutMe {
   background-color: white;
@@ -152,18 +146,17 @@ html {
   font-size: 1.5rem;
   text-align: justify;
   padding-left: 10%;
-  padding-right: 10%
+  padding-right: 10%;
 }
 
 .projects {
-  background-color: #E2F5FF;
+  background-color: #e2f5ff;
   padding-bottom: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  
 }
 
 .projectsTitle {
@@ -177,16 +170,15 @@ html {
   margin: 0;
   font-size: 1.2rem;
   color: #104870;
-
 }
 
 .algorithms {
-  background-color: #E2F5FF;
+  background-color: #e2f5ff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom:3rem;
+  padding-bottom: 3rem;
   width: 100vw;
 }
 
@@ -202,7 +194,7 @@ html {
   font-weight: bold;
   font-size: 0.75rem;
   color: #555555;
-  opacity: 0.6
+  opacity: 0.6;
 }
 
 .projectDiv {
@@ -216,11 +208,11 @@ html {
 }
 
 .projectDivImage {
-  background-color: #4392F1;
+  background-color: #4392f1;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   width: 100%;
   height: 60%;
 }
@@ -231,50 +223,50 @@ html {
   justify-content: flex-start;
   padding: 2em;
   font-size: 0.1rem;
-  height: 40%
+  height: 40%;
 }
 
 .project-summary {
-  padding:16px;
+  padding: 16px;
   min-width: 260px;
   min-height: 300px;
   width: 15.2vw;
-  height:19vw;
-  
-  color:#2196F3;
+  height: 19vw;
+
+  color: #2196f3;
   background-color: white;
   margin: 1rem;
-  
+
   flex-wrap: wrap;
   display: flex;
   flex-direction: column;
   border-bottom: 0 none;
-	-webkit-box-shadow: 0 3px 2px #777;
-	-moz-box-shadow: 0 3px 2px #777;
+  -webkit-box-shadow: 0 3px 2px #777;
+  -moz-box-shadow: 0 3px 2px #777;
   box-shadow: 0 3px 2px #777;
-  
+
   border-radius: 1%;
 }
 
 .project-summary:hover {
-  background: #D4DADF;
-  opacity: 0.8
+  background: #d4dadf;
+  opacity: 0.8;
 }
 .projectLink {
-  text-decoration: none
+  text-decoration: none;
 }
 
 .algorithmTabs {
   display: flex;
   justify-content: flex-start;
-  width:100%
+  width: 100%;
 }
 
 .algorithmSubtitle {
   color: #104870;
   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   opacity: 0.5;
-  width:100%;
+  width: 100%;
 }
 
 .algorithmSubtitleLink {
@@ -284,13 +276,13 @@ html {
   justify-content: center;
 }
 
-.algorithmSubtitle:hover{
-  opacity: 1
+.algorithmSubtitle:hover {
+  opacity: 1;
 }
 
 .algorithmText {
   text-align: center;
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
 
 .algorithmBody {
@@ -302,36 +294,33 @@ html {
 }
 
 .algorithm-summary {
-  display:flex;
+  display: flex;
 
-  
   height: 10rem;
   width: 100%;
   margin-top: 2%;
 
   border-bottom: 0 none;
-	-webkit-box-shadow: 0 3px 2px #777;
-	-moz-box-shadow: 0 3px 2px #777;
+  -webkit-box-shadow: 0 3px 2px #777;
+  -moz-box-shadow: 0 3px 2px #777;
   box-shadow: 0 3px 2px #777;
 }
 
 .algorithmLink {
   display: flex;
   text-decoration: none;
-  width:100%;
+  width: 100%;
   margin: auto;
   justify-content: center;
-
 }
 
 .algorithmLink:hover {
-  background-color: #EEEEEE
+  background-color: #eeeeee;
 }
 
 .algorithmImage {
   width: 10rem;
-  padding-right:10rem;
-
+  padding-right: 10rem;
 }
 
 .algorithmDiv {
@@ -345,7 +334,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #4392F1;
+  background-color: #4392f1;
   width: 33.3%;
 }
 
@@ -355,13 +344,13 @@ html {
   justify-content: center;
   padding: 2rem;
   background-color: white;
-  width: 66.6%
+  width: 66.6%;
 }
 
 .algorithmDivDiv {
-  text-align:center;
+  text-align: center;
   display: flex;
-  width: 100%
+  width: 100%;
 }
 
 .algorithmTitle {
@@ -371,16 +360,16 @@ html {
 
 .algorithmDescription {
   text-align: left;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .algorithmSelect {
-  background-color: #E2F5FF
+  background-color: #e2f5ff;
 }
 
 .active {
-  background-color: #E2F5FF;
-  opacity: 1
+  background-color: #e2f5ff;
+  opacity: 1;
 }
 .publications {
   background-color: white;
@@ -390,8 +379,8 @@ html {
   justify-content: center;
   align-items: center;
   scroll-behavior: smooth;
-  padding-top:3rem;
-} 
+  padding-top: 3rem;
+}
 
 .publication {
   display: flex;
@@ -406,7 +395,7 @@ html {
   font-size: 1.5rem;
   text-align: justify;
   padding-left: 10%;
-  padding-right: 10%
+  padding-right: 10%;
 }
 
 .publicationAuthors {
@@ -414,7 +403,7 @@ html {
   text-align: justify;
   padding-left: 10%;
   padding-right: 10%;
-  color: #AAAAAA
+  color: #aaaaaa;
 }
 
 .publicationJournal {
@@ -422,14 +411,14 @@ html {
   text-align: justify;
   padding-left: 10%;
   padding-right: 10%;
-  color: #AAAAAA
+  color: #aaaaaa;
 }
 
 .publicationImageDiv {
   width: 25%;
   display: flex;
   justify-content: center;
-  align-items:center
+  align-items: center;
 }
 
 .publicationImage {
@@ -440,7 +429,6 @@ html {
   width: 75%;
 }
 
-
 .attributes {
   background-color: white;
   padding-bottom: 3rem;
@@ -449,7 +437,6 @@ html {
   justify-content: center;
   align-items: center;
   width: 100%;
-  
 }
 
 .attributesButtonDiv {
@@ -460,15 +447,15 @@ html {
 
 .attributesButton {
   padding: 5px;
-  background-color: #2196F3;
+  background-color: #2196f3;
   color: white;
   border-radius: 5%;
-  opacity:0.4;
-  margin-right:3rem;
+  opacity: 0.4;
+  margin-right: 3rem;
 }
 
 .attributesButton:hover {
-  opacity: 1
+  opacity: 1;
 }
 
 .attributesTitle {
@@ -483,20 +470,19 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 .attributeText {
   display: flex;
   flex-direction: row;
-  justify-content:left;
+  justify-content: left;
   font-size: 1.5rem;
   width: 75%;
   color: #104870;
 }
 
 .attributeIndex {
-  padding-right: 2rem
+  padding-right: 2rem;
 }
 
 .attributeItems {
@@ -505,7 +491,6 @@ html {
   justify-content: center;
   width: 40%;
   margin: auto;
-  
 }
 
 @media (max-width: 1000px) {
@@ -529,7 +514,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto
+    margin: auto;
   }
 
   .algorithms {
@@ -538,7 +523,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto
+    margin: auto;
   }
 }
 
@@ -549,7 +534,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto
+    margin: auto;
   }
 
   .algorithms {
@@ -558,7 +543,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto
+    margin: auto;
   }
 }
 
@@ -569,7 +554,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto
+    margin: auto;
   }
 
   .algorithms {
@@ -578,7 +563,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto
+    margin: auto;
   }
 }
 
@@ -589,7 +574,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto
+    margin: auto;
   }
 
   .algorithms {
@@ -598,17 +583,16 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto
+    margin: auto;
   }
 }
 
 @media (max-width: 800px) {
   .aboutMeDescription {
-
     font-size: 1rem;
     text-align: left;
     padding-left: 5%;
-    padding-right: 5%
+    padding-right: 5%;
   }
 
   .aboutMeTitle {
@@ -617,7 +601,7 @@ html {
 
   .algorithmsTitle {
     font-size: 2rem;
-  } 
+  }
 
   .projectsTitle {
     font-size: 2rem;
@@ -659,7 +643,7 @@ html {
   }
 
   .publicationImage {
-    width: 8rem
+    width: 8rem;
   }
 
   .publications {
@@ -677,7 +661,31 @@ html {
     justify-content: center;
     width: 70%;
     margin: auto;
-    
   }
+}
 
+.translatorSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  height: 20rem;
+  margin: auto;
+}
+
+.translatorField {
+  width: 45%;
+  height: 100%;
+}
+
+#translatorInput {
+  width: 100%;
+  height: 80%;
+  font-size: 2rem;
+}
+
+#translatorOutput {
+  width: 100%;
+  height: 80%;
+  font-size: 2rem;
 }
