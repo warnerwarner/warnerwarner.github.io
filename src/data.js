@@ -40,6 +40,13 @@ const projects = [
       'https://github.com/Usefulmaths/Transformer/blob/master/src/Transformer.ipynb',
   },
   {
+    title: 'Pokémon Generator (DCGAN & WGAN)',
+    description: 'Generate Pokémon using a Wasserstein GAN.',
+    image: './images/generated_pokemon.png',
+    link:
+      'https://github.com/Usefulmaths/Pokemon-DCGAN-WGAN/blob/master/src/DCGAN%20%26%20WGAN%20-%20MNIST%20%26%20Pok%C3%A9mon%20Generation.ipynb',
+  },
+  {
     title: 'Solar System',
     description: 'A simulation of the solar system using Newtonian physics.',
     image: './images/solarsystem.jpg',
