@@ -42,10 +42,7 @@ const Header = name => (
               className="contactText"
               href="https://github.com/Usefulmaths/"
             >
-              <img
-                className="contactLogo"
-                src="https://cdn.freebiesupply.com/logos/large/2x/github-icon-logo-png-transparent.png"
-              ></img>
+              <img className="contactLogo" src="./images/github-icon.png"></img>
             </a>
           </div>
           <div className="contactItem">

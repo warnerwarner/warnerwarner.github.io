@@ -132,11 +132,13 @@ html {
 .contacts {
   position: relative;
   display: flex;
+  align-items: center;
   flex-direction: row;
   justify-content: left;
 }
+
 .contactText {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
 }
 
 .contactLogo {
