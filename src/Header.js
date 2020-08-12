@@ -16,9 +16,9 @@ const Header = name => (
         ></img>
       </div>
       <div className="headerText">
-        <h1 className="textCenter titleText">Liam D. Eloie</h1>
+        <h1 className="titleText">Liam D. Eloie</h1>
         <div>
-          <p class="personDescription textCenter">Machine Learning Engineer</p>
+          <p class="personDescription">Machine Learning Engineer</p>
         </div>
 
         {/* <hr className="hrStyleWhite"></hr>

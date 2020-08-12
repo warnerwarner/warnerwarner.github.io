@@ -696,7 +696,13 @@ html {
 
   .titleText {
     font-size: 3rem;
+    text-align: center;
   }
+
+  .personDescription {
+    text-align: center;
+  }
+
   .aboutMeDescription {
     font-size: 1rem;
     text-align: left;
