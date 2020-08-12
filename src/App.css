@@ -109,6 +109,7 @@ html {
   margin: auto;
   text-align: center;
   text-decoration: none;
+  font-weight: lighter;
 }
 
 .tab:hover {
@@ -162,6 +163,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-weight: lighter;
 }
 
 .hrStyleWhite {
@@ -228,8 +230,16 @@ html {
 
 .projectTitle {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #000;
+}
+
+.projectDescription {
+  font-weight: lighter;
+  text-align: left;
+  font-size: 1.2rem;
+  color: #000;
+  opacity: 0.6;
 }
 
 .algorithms {
@@ -250,14 +260,6 @@ html {
   font-family: 'Calibre', sans-serif;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-}
-
-.projectDescription {
-  text-align: left;
-  font-weight: bold;
-  font-size: 1rem;
-  color: #000;
-  opacity: 0.6;
 }
 
 .projectDiv {
