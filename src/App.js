@@ -7,95 +7,106 @@ import About from './About.js';
 import Publications from './Publication';
 import Tabs from './Tabs';
 import Attributes from './Attributes';
-import { projects, supervised, unsupervised, reinforcement, publications, attributes } from './data'
-import { Router } from "@reach/router"
+import {
+  projects,
+  supervised,
+  unsupervised,
+  reinforcement,
+  publications,
+  attributes,
+} from './data';
+import { Router } from '@reach/router';
 
 let Main = () => {
-  return <div className='body'>
-    <header>
-      <Tabs />
-      <Header name='Liam Eloie' />
-    </header>
-    <main>
-      <About />
-      <Projects projects={projects} />
-      <Algorithms supervised={supervised} unsupervised={unsupervised} reinforcement={reinforcement} />
-      <Publications publications={publications} />
-      <Attributes attributes={attributes} />
-    </main>
-  </div>
-}
+  return (
+    <div className="body">
+      <header>
+        <Tabs />
+        <Header name="Liam Eloie" />
+      </header>
+      <main>
+        <About />
+        <Projects projects={projects} />
+        <Algorithms
+          supervised={supervised}
+          unsupervised={unsupervised}
+          reinforcement={reinforcement}
+        />
+        <Publications publications={publications} />
+        {/* <Attributes attributes={attributes} /> */}
+      </main>
+    </div>
+  );
+};
 
 class TranslatorForm extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = { input: '', output: '' }
+    this.state = { input: '', output: '' };
 
-    this.handleChange = this.handleChange.bind(this)
-
+    this.handleChange = this.handleChange.bind(this);
   }
 
   handleChange(event) {
-    let english = event.target.value
-    console.log(english)
+    let english = event.target.value;
+    console.log(english);
 
     if (event.key == 'Enter') {
       if (english !== null) {
-        fetch('http://34.67.173.2/trans?english=' + english.replace(/\s/g, '%20'))
+        fetch(
+          'http://34.67.173.2/trans?english=' + english.replace(/\s/g, '%20'),
+        )
           .then(res => res.text())
           .then(translation => {
             this.setState({
               input: english,
-              output: translation
-            })
+              output: translation,
+            });
 
-
-            console.log(english, translation)
-          })
+            console.log(english, translation);
+          });
       }
     }
-
   }
 
   render() {
     return (
-      <div className='translator'>
+      <div className="translator">
         <h1>Translator</h1>
 
-        <div className='translatorSection'>
-          <div className='translatorField'>
-            <input id="translatorInput" onKeyPress={this.handleChange}>
-
-            </input>
-
+        <div className="translatorSection">
+          <div className="translatorField">
+            <input id="translatorInput" onKeyPress={this.handleChange}></input>
           </div>
-          <div className='translatorField'>
-            <input id="translatorOutput" placeholder={this.state.output}>
-
-            </input>
+          <div className="translatorField">
+            <input
+              id="translatorOutput"
+              placeholder={this.state.output}
+            ></input>
           </div>
         </div>
       </div>
-
-    )
+    );
   }
 }
 
 let Translator = () => {
-  return <div className='body'>
-    <TranslatorForm />
-
-  </div>
-}
-
+  return (
+    <div className="body">
+      <TranslatorForm />
+    </div>
+  );
+};
 
 class App extends Component {
   render() {
-    return <Router>
-      <Main path="/" />
-      <Translator path="translator" />
-    </Router>
+    return (
+      <Router>
+        <Main path="/" />
+        <Translator path="translator" />
+      </Router>
+    );
   }
 }
 
