@@ -668,6 +668,7 @@ html {
     justify-content: center;
     align-items: center;
     margin: auto;
+    color: black;
   }
 }
 
@@ -717,12 +718,10 @@ html {
   }
 
   .algorithmsTitle {
-    font-size: 2rem;
-    color: white;
+    color: black;
   }
 
   .projectsTitle {
-    font-size: 2rem;
   }
 
   .publicationTitle {
@@ -745,7 +744,7 @@ html {
   }
 
   .algorithmText {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .publicationText {
@@ -786,6 +785,27 @@ html {
     justify-content: center;
     width: 70%;
     margin: auto;
+  }
+
+  .project-summary {
+    padding: 16px;
+    min-width: 260px;
+    width: 15.2vw;
+    height: 19vw;
+
+    color: #2196f3;
+    background-color: white;
+    margin: 1rem;
+
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0 none;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+
+    border-radius: 1%;
   }
 }
 
