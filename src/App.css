@@ -593,7 +593,7 @@ html {
 
 @media (min-width: 1200px) {
   .projects {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -602,7 +602,7 @@ html {
   }
 
   .algorithms {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -613,7 +613,7 @@ html {
 
 @media (min-width: 1400px) {
   .projects {
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -622,27 +622,7 @@ html {
   }
 
   .algorithms {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-  }
-}
-
-@media (min-width: 1400px) {
-  .projects {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-  }
-
-  .algorithms {
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -725,7 +705,7 @@ html {
   }
 
   .projectDescription {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .publicationTitle {
