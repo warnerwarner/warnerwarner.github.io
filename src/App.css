@@ -724,6 +724,10 @@ html {
   .projectsTitle {
   }
 
+  .projectDescription {
+    font-size: 10px;
+  }
+
   .publicationTitle {
     font-size: 3rem;
     font-weight: 600;
@@ -790,6 +794,7 @@ html {
   .project-summary {
     padding: 16px;
     min-width: 260px;
+    min-height: 300px;
     width: 15.2vw;
     height: 19vw;
 
