@@ -148,19 +148,19 @@ const unsupervised = [
 const reinforcement = [
   {
     title: 'Monte Carlo REINFORCE',
-    description: 'Implementation of neural processes.',
+    description: 'Implementation of Monte Carlo REINFORCE using PyTorch.',
     image: './images/pg.png',
     link: 'https://github.com/Usefulmaths/Monte-Carlo-Reinforce',
   },
   {
     title: 'Q-Learning',
-    description: 'A simulation of the solar system using Newtonian physics.',
+    description: 'Implementation of Q-Learning using PyTorch.',
     image: './images/qlearning.png',
     link: 'https://github.com/Usefulmaths/Q-Learning',
   },
   {
     title: 'Actor-Critic',
-    description: 'Implementation of TicTacToe + AI opponent',
+    description: 'Implementation of Actor Critic Method using PyTorch.',
     image: './images/actorcritic.png',
     link: 'https://github.com/Usefulmaths/Actor-Critic',
   },
