@@ -213,6 +213,24 @@ html {
   padding-top: 2.5rem;
 }
 
+.aboutMeBody {
+  display: flex;
+  height: 100%;
+}
+
+.aboutMeImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100rem;
+  height: 75;
+}
+
+.aboutMeImage {
+  width: 400px;
+}
+
 .aboutMeDescription {
   text-align: justify;
   padding-left: 10%;
