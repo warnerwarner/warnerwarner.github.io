@@ -837,3 +837,14 @@ html {
   height: 80%;
   font-size: 2rem;
 }
+
+@media (max-width: 1200px) {
+  .aboutMeImages {
+    display: none;
+  }
+
+  .aboutMe {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
