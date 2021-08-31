@@ -61,7 +61,7 @@ const projects = [
   {
     title: 'Website Portfolio',
     description: 'A website portfolio of myself implemented using React.js.',
-    image: './images/liam_face_project.png',
+    image: './images/liam-head-shot-square.png',
     link: 'https://github.com/Usefulmaths/Portfolio-Website',
   },
 ];

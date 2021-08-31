@@ -12,7 +12,7 @@ const Header = name => (
       <div className="headerImage">
         <img
           className="center imgCircle"
-          src="./images/github_profile_head_final_square.png"
+          src="./images/liam-head-shot-square.png"
         ></img>
       </div>
       <div className="headerText">
