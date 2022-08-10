@@ -169,12 +169,21 @@ const reinforcement = [
 const publications = [
   {
     name:
-      'Quantum arithmetics via computation with minimized external control: The half-adder.',
-    authors: 'Liam Eloie, Leonardo Banchi, and Sougato Bose',
-    journal: 'Physical Review A',
+      'Fast odour dynamics are encoded in the olfactory system and guide behaviour',
+    authors: 'T. Ackles, A. Erskine, D. Dasgupta, A.C. Marin, T.P.A. Warner',
+    journal: 'Nature',
     image: './images/bloch_sphere.png',
-    link: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.97.062321',
+    link: 'https://www.nature.com/articles/s41586-021-03514-2',
   },
+  {
+    name:
+      'Coupling of Mouse Olfactory Bulb Projection Neurons to Fluctuating Odor Pulses',
+    authors: 'D. Dasgupta, T.P.A. Warner, A. Erskine, A.T. Schaefer',
+    journal: 'Journal of Neuroscience',
+    image: './images/bloch_sphere.png',
+    link: 'https://www.jneurosci.org/content/42/21/4278/tab-article-info',
+  },
+  
 ];
 
 const attributes = [

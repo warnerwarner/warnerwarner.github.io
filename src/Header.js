@@ -12,35 +12,29 @@ const Header = name => (
       <div className="headerImage">
         <img
           className="center imgCircle"
-          src="./images/liam-head-shot-square.png"
+          src="./images/headshot.jpg"
         ></img>
       </div>
       <div className="headerText">
-        <h1 className="titleText">Liam D. Eloie</h1>
+        <h1 className="titleText">Tom P. A. Warner </h1>
         <div>
-          <p class="personDescription">Machine Learning Engineer</p>
+          <p class="personDescription">Systems Neurophysiologist</p>
         </div>
 
         {/* <hr className="hrStyleWhite"></hr>
         <p className="textCenter">liam.d.eloie@gmail.com</p> */}
         <div className="contacts">
+        <div className='contactItem'>
+          <a href="./files/CV - Liam Eloie.pdf" download>
+            <img className="contactLogo" src="./images/cv-file-interface-symbol.png"></img>
+          </a>
+        </div>
+         
           <div className="contactItem">
             <a
               target="_blank"
               className="contactText"
-              href="https://linkedin.com/in/liam-eloie-a5740965/"
-            >
-              <img
-                className="contactLogo"
-                src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
-              ></img>
-            </a>
-          </div>
-          <div className="contactItem">
-            <a
-              target="_blank"
-              className="contactText"
-              href="https://github.com/Usefulmaths/"
+              href="https://github.com/warnerwarner/"
             >
               <img className="contactLogo" src="./images/github-icon.png"></img>
             </a>
@@ -49,7 +43,7 @@ const Header = name => (
             <a
               target="_blank"
               className="contactText"
-              href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=liam.d.eloie@gmail.com&tf=1"
+              href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=tom.p.a.warner@gmail.com&tf=1"
             >
               <img
                 className="contactLogo"

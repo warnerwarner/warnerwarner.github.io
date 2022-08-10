@@ -11,9 +11,9 @@ const Publication = ({ name, authors, journal, image, link }) => (
    */
 
   <div className="publication">
-    <div className="publicationImageDiv">
+    {/* <div className="publicationImageDiv">
       <img className="publicationImage" src={image}></img>
-    </div>
+    </div> */}
     <div className="publicationText">
       <p className="publicationName">
         {name}{' '}

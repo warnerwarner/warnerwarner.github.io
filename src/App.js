@@ -6,6 +6,7 @@ import Header from './Header.js';
 import About from './About.js';
 import Publications from './Publication';
 import Tabs from './Tabs';
+import CV from './CV';
 import Attributes from './Attributes';
 import {
   projects,
@@ -22,17 +23,18 @@ let Main = () => {
     <div className="body">
       <header>
         <Tabs />
-        <Header name="Liam Eloie" />
+        <Header name="Tom P.A. Warner" />
       </header>
       <main>
         <About />
+        <Publications publications={publications} />
         <Projects projects={projects} />
-        <Algorithms
+        {/* <Algorithms
           supervised={supervised}
           unsupervised={unsupervised}
           reinforcement={reinforcement}
-        />
-        <Publications publications={publications} />
+        /> */}
+        
         {/* <Attributes attributes={attributes} /> */}
       </main>
     </div>

@@ -14,6 +14,7 @@ const Tabs = () => (
     <a href="#publications" className="tab">
       Publications
     </a>
+    {/* <a href="./files/CV - Liam Eloie.pdf" download className="tab">CV download</a> */}
   </div>
 );
 
