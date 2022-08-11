@@ -1,23 +1,23 @@
 const projects = [
   {
-    title: 'Quantum Gate Learning',
-    description: 'Using evolutionary algorithms to learn quantum logic gates.',
+    title: 'Neurolytics',
+    description: 'Python data-orientated objects to hold neurophysiological data',
     image: './images/bloch_sphere.png',
     link:
-      'https://github.com/Usefulmaths/MSci-Project-Quantum-Gate-Learning-Differential-Evolution',
+      'https://github.com/warnerwarner/neurolytics',
   },
   {
-    title: 'Protein Function Prediction',
-    description: 'Predicting the function of proteins using deep learning.',
+    title: 'PyPulse',
+    description: 'Tools for generating complex pulse trains for driving high speed valves',
     image: './images/protein.png',
     link:
-      'https://github.com/Usefulmaths/MSc-Project-Protein-Function-Prediction',
+      'https://github.com/warnerwarner/pypulse',
   },
   {
-    title: 'Neural Translator',
-    description: 'English to Norwegian translator using LSTM with attention',
+    title: 'Binary pulses',
+    description: 'Data extraction and modelling of neurophysiological data',
     image: './images/seq2seq_attention_mechanism_new.png',
-    link: 'https://github.com/Usefulmaths/Neural-Translation-with-Attention',
+    link: 'https://github.com/warnerwarner/binary_pulses',
   },
   {
     title: 'Neural Processes',
@@ -169,20 +169,35 @@ const reinforcement = [
 const publications = [
   {
     name:
-      'Fast odour dynamics are encoded in the olfactory system and guide behaviour',
-    authors: 'T. Ackles, A. Erskine, D. Dasgupta, A.C. Marin, T.P.A. Warner',
-    journal: 'Nature',
-    image: './images/bloch_sphere.png',
-    link: 'https://www.nature.com/articles/s41586-021-03514-2',
-  },
-  {
-    name:
       'Coupling of Mouse Olfactory Bulb Projection Neurons to Fluctuating Odor Pulses',
-    authors: 'D. Dasgupta, T.P.A. Warner, A. Erskine, A.T. Schaefer',
+    authors: Array('D. Dasgupta ', 'T.P.A. Warner ', 'A. Erskine ', 'A.T. Schaefer '),
     journal: 'Journal of Neuroscience',
     image: './images/bloch_sphere.png',
     link: 'https://www.jneurosci.org/content/42/21/4278/tab-article-info',
+    year: '2022',
+    me_author_index: 1
   },
+  {
+    name:
+    'jULIEs: nanostructured polytrodes for low traumatic extracellular recordings and stimulation in the mammalian brain',
+    authors: Array('R.R. Racz ', 'M. Kollo ', 'G. Racz ', 'C. Bulz ', 'T. Ackles ', 'T.P.A. Warner ', 'W. Wray ', 'N. Kiskin ', 'C. Chen ', 'Z. Ye ', 'L. de Hoz ', 'E. Rancz ', 'A.T. Schaefer '),
+    journal: 'Journal of Neural Engineering',
+    image: './images/bloch_sphere.png',
+    link: 'https://iopscience.iop.org/article/10.1088/1741-2552/ac514f/meta',
+    year: '2022',
+    me_author_index:5
+  },
+  {
+    name:
+      'Fast odour dynamics are encoded in the olfactory system and guide behaviour',
+    authors: Array('T. Ackles ', 'A. Erskine ', 'D. Dasgupta ', 'A.C. Marin ', 'T.P.A. Warner ', 'S. Tootoonian ', 'I. Fukunaga ', 'J.J. Harris ', 'A.T. Schaefer '),
+    journal: 'Nature',
+    image: './images/bloch_sphere.png',
+    link: 'https://www.nature.com/articles/s41586-021-03514-2',
+    year: '2021',
+    me_author_index:4
+  },
+
   
 ];
 

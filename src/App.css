@@ -53,7 +53,7 @@ html {
   background-color: #1b2a51;
   color: white;
   padding: 2rem;
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 
 .body {
@@ -82,7 +82,7 @@ html {
 }
 
 .personDescription {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .textCenter {
@@ -132,21 +132,36 @@ html {
 .contacts {
   position: relative;
   display: flex;
-  align-items: center;
-  flex-direction: row;
+  /* align-items: justify; */
+  flex-direction: column;
   justify-content: left;
 }
 
 .contactText {
-  /* font-size: 1.5rem; */
+  font-size: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  color:white
 }
 
+.contactText a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
 .contactLogo {
   width: 100%;
 }
 
 .contactItem {
-  width: 2rem;
+  /* width: 2rem; */
+  /* margin: 5px; */
+  display:flex;
+  text-align:center;
+  align-items: center;
+  vertical-align: middle;
+  flex-direction: row;
+}
+.contactImage{
+  width: 1.5rem;
   margin: 5px;
 }
 
@@ -475,6 +490,7 @@ html {
 .publications {
   background-color: white;
   display: flex;
+  flex: 0 0 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -496,25 +512,35 @@ html {
 .publicationName {
   font-size: 1.5rem;
   text-align: justify;
-  padding-left: 10%;
+  padding-left: 15%;
   padding-right: 10%;
+  /* padding-top: 1%; */
   
 }
 
 .publicationAuthors {
   font-size: 1rem;
   text-align: justify;
-  padding-left: 10%;
+  padding-left: 15%;
   padding-right: 10%;
   
 }
 
+
 .publicationJournal {
   font-size: 1rem;
   text-align: justify;
-  padding-left: 10%;
+  padding-left: 15%;
   padding-right: 10%;
+  font-style: italic;
   
+}
+.publicationYear {
+  font-size: 1rem;
+  text-align: justify;
+  padding-left: 15%;
+  padding-right: 10%;
+  /* font-style: italic; */
 }
 
 .publicationImageDiv {
@@ -531,7 +557,10 @@ html {
 .publicationText {
   width: 100%;
 }
-
+.publicationsTitle{
+  text-align: justify;
+  /* padding-left: 15%; */
+}
 .attributes {
   background-color: white;
   display: flex;

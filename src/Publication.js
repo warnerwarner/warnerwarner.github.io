@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Publication = ({ name, authors, journal, image, link }) => (
+const Publication = ({ name, authors, journal, image, link, year, me_author_index}) => (
   /**
    * A React component representing a publication.
    *
@@ -21,8 +21,9 @@ const Publication = ({ name, authors, journal, image, link }) => (
           (Link)
         </a>
       </p>
-      <p className="publicationAuthors">{authors}</p>
+      <p className="publicationAuthors">{bold_name(authors, me_author_index)}</p>
       <p className="publicationJournal">{journal}</p>
+      <p className='publicationYear'>{year}</p>
     </div>
   </div>
 );
@@ -47,5 +48,7 @@ const Publications = ({ publications }) => (
     </div>
   </div>
 );
+
+const bold_name = (authors, me_author_index) => Array(authors.slice(0, me_author_index), <b>{authors[me_author_index]}</b>, authors.slice(me_author_index+1))
 
 export default Publications;
