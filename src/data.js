@@ -20,49 +20,30 @@ const projects = [
     link: 'https://github.com/warnerwarner/binary_pulses',
   },
   {
-    title: 'Neural Processes',
-    description: 'Implementation of neural processes.',
+    title: 'CHIMPY',
+    description: 'Analysis and manipulation of electrophysiological data recorded using CHIME probes',
     image: './images/gpfunc.png',
     link: 'https://github.com/Usefulmaths/Neural-Processes',
   },
   {
-    title: 'Neural Style Transfer',
-    description: 'An implementation of neural style transfer.',
+    title: 'Daskify',
+    description: 'High level interface for dask objects. Useful for distributed computing',
     image: './images/starry_london.png',
-    link: 'https://github.com/Usefulmaths/Style-Transfer',
+    link: 'https://github.com/warnerwarner/daskify',
   },
   {
-    title: 'Transformer',
+    title: 'PulseBoy',
     description:
-      'A Transformer coded using PyTorch and demonstrated on English to Norwegian translation task.',
+      'GUI for the generation and presentation of pulse trains.',
     image: './images/transformer_diagram2.png',
     link:
-      'https://github.com/Usefulmaths/Transformer/blob/master/src/Transformer.ipynb',
+      'https://github.com/warnerwarner/pulseboy',
   },
   {
-    title: 'Pokémon Generator (DCGAN & WGAN)',
-    description: 'Generate Pokémon using a Wasserstein GAN.',
-    image: './images/generated_pokemon.png',
-    link:
-      'https://github.com/Usefulmaths/Pokemon-DCGAN-WGAN/blob/master/src/DCGAN%20%26%20WGAN%20-%20MNIST%20%26%20Pok%C3%A9mon%20Generation.ipynb',
-  },
-  {
-    title: 'Solar System',
-    description: 'A simulation of the solar system using Newtonian physics.',
-    image: './images/solarsystem.jpg',
-    link: 'https://github.com/Usefulmaths/Solar-System-Environment',
-  },
-  {
-    title: 'TicTacToe',
-    description: 'Implementation of TicTacToe + AI opponent',
-    image: './images/ttt.png',
-    link: 'https://github.com/Usefulmaths/TicTacToe',
-  },
-  {
-    title: 'Website Portfolio',
+    title: 'Portfolio',
     description: 'A website portfolio of myself implemented using React.js.',
     image: './images/liam-head-shot-square.png',
-    link: 'https://github.com/Usefulmaths/Portfolio-Website',
+    link: 'https://github.com/warnerwarner/portfolio-website',
   },
 ];
 
