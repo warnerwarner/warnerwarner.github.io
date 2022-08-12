@@ -2,47 +2,47 @@ const projects = [
   {
     title: 'Neurolytics',
     description: 'Python data-orientated objects to hold neurophysiological data',
-    image: './images/bloch_sphere.png',
+    image: './images/spike_example.png',
     link:
       'https://github.com/warnerwarner/neurolytics',
   },
   {
     title: 'PyPulse',
     description: 'Tools for generating complex pulse trains for driving high speed valves',
-    image: './images/protein.png',
+    image: './images/pypulse_examp.png',
     link:
       'https://github.com/warnerwarner/pypulse',
   },
   {
     title: 'Binary pulses',
     description: 'Data extraction and modelling of neurophysiological data',
-    image: './images/seq2seq_attention_mechanism_new.png',
+    image: './images/binary_pulses.png',
     link: 'https://github.com/warnerwarner/binary_pulses',
   },
   {
     title: 'CHIMPY',
-    description: 'Analysis and manipulation of electrophysiological data recorded using CHIME probes',
-    image: './images/gpfunc.png',
-    link: 'https://github.com/Usefulmaths/Neural-Processes',
+    description: 'Analysis of data recorded using CHIME probes. Image from https://doi.org/10.3389/fnins.2020.00834',
+    image: './images/chime.jpg',
+    link: 'https://github.com/warnerwarner/chimpy',
   },
   {
     title: 'Daskify',
     description: 'High level interface for dask objects. Useful for distributed computing',
-    image: './images/starry_london.png',
+    image: './images/dask.png',
     link: 'https://github.com/warnerwarner/daskify',
   },
   {
     title: 'PulseBoy',
     description:
       'GUI for the generation and presentation of pulse trains.',
-    image: './images/transformer_diagram2.png',
+    image: './images/Pulseboy.png',
     link:
       'https://github.com/warnerwarner/pulseboy',
   },
   {
     title: 'Portfolio',
     description: 'A website portfolio of myself implemented using React.js.',
-    image: './images/liam-head-shot-square.png',
+    image: './images/headshot.jpg',
     link: 'https://github.com/warnerwarner/portfolio-website',
   },
 ];
