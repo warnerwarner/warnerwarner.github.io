@@ -1,22 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
 import Projects from './Project.js';
-import Algorithms from './Algorithm.js';
 import Header from './Header.js';
 import About from './About.js';
 import Publications from './Publication';
 import Tabs from './Tabs';
-import CV from './CV';
-import Attributes from './Attributes';
 import {
   projects,
-  supervised,
-  unsupervised,
-  reinforcement,
   publications,
-  attributes,
 } from './data';
 import { Router } from '@reach/router';
+
 
 let Main = () => {
   return (

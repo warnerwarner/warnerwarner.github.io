@@ -12,7 +12,7 @@ const Header = name => (
       <div className="headerImage">
         <img
           className="center imgCircle"
-          src="./images/headshot.jpg"
+          src="./images/headshot.png"
         ></img>
       </div>
       <div className="headerText">
@@ -29,7 +29,7 @@ const Header = name => (
           
             <img className="contactLogo" src="./images/cv-file-interface-symbol-inverted.png"></img>
           </div>
-          <a target="_blank" className='contactText' href="./files/CV - Liam Eloie.pdf" download>
+          <a target="_blank" className='contactText' href="./files/TPAWarner_CV.pdf" download>
           CV
           </a>
         </div>

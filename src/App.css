@@ -253,6 +253,12 @@ html {
   font-weight: 300;
 }
 
+.aboutMeSkills {
+  text-align:justify;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .projects {
   background-color: #dddddd;
   padding-bottom: 3rem;
